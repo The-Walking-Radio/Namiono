@@ -1,0 +1,169 @@
+﻿*
+{
+	box-sizing:				border-box;
+	vertical-align:			top;
+	font-family:			Helvetica;
+	font-size:				100%;
+	border:					none;
+
+	margin:					0;
+	padding:				0;
+}
+
+body
+{
+	background-color:		#000000;
+	font-size:				100%;
+}
+
+div
+{
+	border:					1px;
+	border-style:			dotted;
+}
+
+header
+{
+	display:				inline-block;
+
+	height:					128px !important;
+	width:					100%;
+	border:					1px;
+	border-style:			dotted;
+}
+
+#header-left, #header-middle
+{
+	display:				inline-block;
+	float:					left;
+	margin-top:				0px;
+	padding-top:			0px;
+}
+
+#header-middle
+{
+	display:				inline-block;
+	width:					auto;
+	margin-top:				0px;
+	padding-top:			0px;
+}
+
+#header-right
+{
+	float:					right;
+	height:					128px;
+	margin-top:				0px;
+	padding-top:			0px;
+}
+
+#header-left
+{
+	float:					float;
+	height:					128px;
+	margin-top:				0px;
+	padding-top:			0px;
+}
+
+#page
+{
+	margin-left:			auto;
+	margin-right:			auto;
+
+	color:					#ffffff;
+	width:					1280px;
+	min-height:				1000px;
+}
+
+nav
+{
+	margin-top:				1em;
+	margin-bottom:			0.5em;
+	clear:					left;
+	float:					left;
+	width:					200px;
+	border:					1px;
+	border-style:			dotted;
+}
+
+aside
+{
+	margin-top:				1em;
+	float:					right;
+	min-width:				200px;
+	border:					1px;
+	border-style:			dotted;
+}
+
+main
+{
+	margin-top:				1em;
+	float:					left;
+	border:					1px;
+	border-style:			dotted;
+	margin-left:			25%;
+	margin-right:			25%;
+}
+
+footer
+{
+	float:					left;
+	clear:					left;
+	border:					1px;
+	border-style:			dotted;
+}
+
+.copyright
+{
+	float:					left;
+	color:					#21cce4;
+	height:					20px;
+	font-size:				0.8em;
+	text-align:				center;
+}
+
+.box-header
+{
+	font-size:				0.857em;
+	line-height:			1.21em;
+	color:					#ffffff;
+	text-align:				center;
+	background-image:		url("side.png");
+	background-repeat:		repeat-x;
+	height:					24px;
+}
+
+.box-content
+{
+	line-height:			1.21em;
+	color:					#ffffff;
+	text-align:				center;
+	border:					1px solid;
+	background-color:		rgba(57, 135, 198, 0.1);
+	border-color:			#089ead;
+}
+
+nav ul
+{
+	list-style-type:		none;
+}
+
+nav ul li a
+{
+	text-decoration:		none;
+	color:					#21cce4;
+	padding-left:			0.750em;
+	font-size:				0.750em;
+	line-height:			1.500em;
+}
+
+nav ul li a:hover
+{
+	font-size:				0.750em;
+	font-weight:			bold;
+	line-height:			1.500em;
+	
+	transition-property:	color, font-weight;
+	transition-duration:	0.2s;
+	transition-timing-function: ease-in;
+	color:					#19aeef;
+}
